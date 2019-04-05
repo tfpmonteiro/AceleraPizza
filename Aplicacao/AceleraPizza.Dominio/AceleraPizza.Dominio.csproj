@@ -42,7 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\EntidadeBase.cs" />
+    <Compile Include="Dto\ClienteDto.cs" />
     <Compile Include="Model\Cliente.cs" />
+    <Compile Include="Model\Ingredientes.cs" />
+    <Compile Include="Model\Pedido.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
