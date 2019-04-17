@@ -4,6 +4,7 @@ using AceleraPizza.InjecaoDependencia;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Owin;
+using Swashbuckle.Application;
 using System.Globalization;
 using System.Web.Http;
 using Unity;

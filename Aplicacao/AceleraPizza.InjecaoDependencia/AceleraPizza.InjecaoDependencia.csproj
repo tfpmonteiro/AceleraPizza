@@ -60,5 +60,22 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AceleraPizza.Dominio\AceleraPizza.Dominio.csproj">
+      <Project>{56b5d6d7-e5a1-4e1a-bb70-99b7234ef029}</Project>
+      <Name>AceleraPizza.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AceleraPizza.Repositorio\AceleraPizza.Repositorio.csproj">
+      <Project>{e9b879a4-f384-4e30-81b6-5411a9675d2c}</Project>
+      <Name>AceleraPizza.Repositorio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AceleraPizza.Service\AceleraPizza.Service.csproj">
+      <Project>{b65c11e3-5db9-4066-8dcc-215ce8722b2c}</Project>
+      <Name>AceleraPizza.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

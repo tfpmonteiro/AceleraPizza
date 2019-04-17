@@ -1,4 +1,7 @@
-﻿using Unity;
+﻿using AceleraPizza.Dominio.Interface.Repositorio;
+using AceleraPizza.Repositorio;
+using Unity;
+using Unity.Lifetime;
 
 namespace AceleraPizza.InjecaoDependencia
 {
@@ -6,7 +9,7 @@ namespace AceleraPizza.InjecaoDependencia
     {
         public static void Register(IUnityContainer container)
         {
-
+            container.RegisterType<IClienteRepositorio, ClienteRepositorio>(new ContainerControlledLifetimeManager());
         }
     }
 }

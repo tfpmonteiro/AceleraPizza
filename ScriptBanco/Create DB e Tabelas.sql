@@ -12,13 +12,30 @@ CREATE TABLE Cliente(
 	);
 
 	CREATE TABLE Ingredientes(
-	IdIngredientes uniqueidentifier CONSTRAINT [PK_IdIngredientes] PRIMARY KEY, 
+	IdIngrediente uniqueidentifier CONSTRAINT [PK_IdIngrediente] PRIMARY KEY, 
 	Descricao varchar(100) NOT NULL,
 	Valor decimal NOT NULL	
 	);
 
+	
 	CREATE TABLE Pedido(
 	IdPedido uniqueidentifier CONSTRAINT [PK_IdPedido] PRIMARY KEY, 
-	Descricao varchar(100) NOT NULL,
-	Valor decimal NOT NULL	
+	IdCliente uniqueidentifier NOT NULL CONSTRAINT [FK_IdCliente] FOREIGN KEY REFERENCES Cliente (IdCliente),
 	);
+
+	CREATE TABLE Pizza(
+	IdPizza uniqueidentifier NOT NULL CONSTRAINT [PK_IdPizza] PRIMARY KEY,
+	IdPedido uniqueidentifier NOT NULL CONSTRAINT FK_IdPedido FOREIGN KEY REFERENCES Pedido (IdPedido),
+	Tamanho int NOT NULL,
+	Borda int NOT NULL,
+	);
+
+	CREATE TABLE PizzaIngrediente(
+	IdPizIng uniqueidentifier NOT NULL CONSTRAINT [PK_IdPizIng] PRIMARY KEY,
+	IdPizza uniqueidentifier NOT NULL CONSTRAINT [FK_IdPizza] FOREIGN KEY REFERENCES Pizza (IdPizza),
+	IdIngrediente uniqueidentifier NOT NULL CONSTRAINT [FK_Ingrediente] FOREIGN KEY REFERENCES Ingredientes (Idingrediente),
+	QtdIng decimal NOT NULL,
+	);
+
+
+	

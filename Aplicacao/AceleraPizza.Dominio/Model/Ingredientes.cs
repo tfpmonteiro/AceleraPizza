@@ -1,10 +1,8 @@
-﻿using AceleraPizza.Dominio.Base;
-
-namespace AceleraPizza.Dominio.Model
+﻿namespace AceleraPizza.Dominio.Model
 {
-    public class Ingredientes: EntidadeBase
+    public class Ingredientes: EntidadeDominio
     {
         public string Descricao { get; set; }
-        public decimal Valor { get; set; }
+        public double Valor { get; set; }
     }
 }
