@@ -10,5 +10,6 @@ namespace AceleraPizza.Dominio.View
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string Endereco { get; set; } = "";
+        public string Telefone { get; set; } = "";
     }
 }

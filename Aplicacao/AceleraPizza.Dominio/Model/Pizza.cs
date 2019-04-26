@@ -5,12 +5,12 @@ namespace AceleraPizza.Dominio.Model
 {
     public class Pizza : EntidadeDominio
     {
-        public List<Ingredientes> Ingredientes { get; set; }
+        public List<Ingrediente> Ingredientes { get; set; }
         public EnumTamanho Tamanho { get; set; }
         public EnumBorda Borda { get; set; }
         public double ValorPizza { get; set; }
 
-        public Pizza(List<Ingredientes> ingredientes, EnumTamanho tamanho, EnumBorda borda)
+        public Pizza(List<Ingrediente> ingredientes, EnumTamanho tamanho, EnumBorda borda)
         {
             Ingredientes = ingredientes;
             Tamanho = tamanho;
@@ -18,7 +18,7 @@ namespace AceleraPizza.Dominio.Model
             ValorPizza = CalcularPizza(ingredientes, borda, tamanho);
         }
 
-        public double CalcularPizza(List<Ingredientes> ingredientes, EnumBorda borda, EnumTamanho tamanho)
+        public double CalcularPizza(List<Ingrediente> ingredientes, EnumBorda borda, EnumTamanho tamanho)
         {
             double valorPizza = 0;
 

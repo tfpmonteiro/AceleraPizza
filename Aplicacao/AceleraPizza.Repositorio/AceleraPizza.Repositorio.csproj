@@ -63,8 +63,12 @@
   <ItemGroup>
     <Compile Include="BaseRepositorio.cs" />
     <Compile Include="ClienteRepositorio.cs" />
+    <Compile Include="IngredienteRepositorio.cs" />
     <Compile Include="Map\ClienteMap.cs" />
     <Compile Include="Map\ConfigMapDapper.cs" />
+    <Compile Include="Map\IngredienteMap.cs" />
+    <Compile Include="Map\PedidoMap.cs" />
+    <Compile Include="Map\PizzaMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

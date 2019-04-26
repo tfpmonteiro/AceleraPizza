@@ -1,7 +1,9 @@
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Service\bin\Debug\AceleraPizza.Service.dll
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Service\bin\Debug\AceleraPizza.Service.pdb
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Service\bin\Debug\AceleraPizza.Dominio.dll
+E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Service\bin\Debug\AceleraPizza.Comum.dll
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Service\bin\Debug\AceleraPizza.Dominio.pdb
+E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Service\bin\Debug\AceleraPizza.Comum.pdb
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Service\obj\Debug\AceleraPizza.Service.csprojAssemblyReference.cache
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Service\obj\Debug\AceleraPizza.Service.csproj.CoreCompileInputs.cache
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Service\obj\Debug\AceleraPizza.Service.csproj.CopyComplete

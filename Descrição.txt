@@ -1,0 +1,12 @@
+AceleraPizza trata-se de um sistema de pedidos de pizza. Através do sistema, é possível montar uma pizza personalizada.
+
+O sistema deve realizar o cadastro de pizzas onde cada pizza terá um tamanho (pequeno, médio ou grande), um tipo de borda (catupiry, cheddar ou sem borda) e quantos ingredientes o cliente preferir. 
+	A variedade de ingregientes é medida em tipo e valor. Por exemplo, o cliente pode inserir uma ou mais doses de qualquer um dos 	ingredientes cadastrados. 
+
+O sistema deve permitir o cadastro de ingredientes com uma descrição e valor.
+
+---------------
+
+A intenção é: cadastrar cliente, pizza e ingredientes via sistema. Como cada cliente monta a sua pizza
+
+O pedido será a ligação entre a pizza e o cliente

@@ -10,6 +10,7 @@ namespace AceleraPizza.InjecaoDependencia
         public static void Register(IUnityContainer container)
         {
             container.RegisterType<IClienteRepositorio, ClienteRepositorio>(new ContainerControlledLifetimeManager());
+            container.RegisterType<IIngredienteRepositorio, IngredienteRepositorio>(new ContainerControlledLifetimeManager());
         }
     }
 }

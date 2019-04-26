@@ -44,21 +44,37 @@
     <Compile Include="Dto\ClienteDto.cs" />
     <Compile Include="Dto\ClienteSearchDto.cs" />
     <Compile Include="Dto\EntidadeDto.cs" />
-    <Compile Include="Dto\IngredientesDto.cs" />
+    <Compile Include="Dto\IngredienteDto.cs" />
+    <Compile Include="Dto\IngredienteSearchDto.cs" />
     <Compile Include="Dto\PedidoDto.cs" />
+    <Compile Include="Dto\PedidoSearchDto.cs" />
     <Compile Include="Dto\PizzaDto.cs" />
+    <Compile Include="Dto\PizzaSearchDto.cs" />
     <Compile Include="Enum\EnumBorda.cs" />
     <Compile Include="Enum\EnumTamanho.cs" />
     <Compile Include="Interface\Repositorio\IClienteRepositorio.cs" />
+    <Compile Include="Interface\Repositorio\IIngredienteRepositorio.cs" />
     <Compile Include="Interface\Service\IClienteService.cs" />
+    <Compile Include="Interface\Service\IIngredienteService.cs" />
     <Compile Include="Model\Cliente.cs" />
     <Compile Include="Model\EntidadeDominio.cs" />
-    <Compile Include="Model\Ingredientes.cs" />
+    <Compile Include="Model\Ingrediente.cs" />
     <Compile Include="Model\Pedido.cs" />
     <Compile Include="Model\Pizza.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\ClienteAtualizarViewModel.cs" />
     <Compile Include="View\ClienteInserirViewModel.cs" />
+    <Compile Include="View\IngredienteAtualizarViewModel.cs" />
+    <Compile Include="View\IngredienteInserirViewModel.cs" />
+    <Compile Include="View\PedidoAtualizarViewModel.cs" />
+    <Compile Include="View\PedidoInserirViewModel.cs" />
+    <Compile Include="View\PizzaAtualizarViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AceleraPizza.Comum\AceleraPizza.Comum.csproj">
+      <Project>{6d7bd97a-70e5-4936-9e2d-eee94966b08d}</Project>
+      <Name>AceleraPizza.Comum</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

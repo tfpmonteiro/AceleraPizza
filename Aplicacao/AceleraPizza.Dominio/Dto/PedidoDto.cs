@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace AceleraPizza.Dominio.Dto
 {
@@ -7,5 +8,6 @@ namespace AceleraPizza.Dominio.Dto
         public ClienteDto ClienteDto { get; set; }
         public List<PizzaDto> PizzasDto { get; set; }
         public double ValorPedido { get; set; }
+        public DateTime DataPedido { get; }
     }
 }

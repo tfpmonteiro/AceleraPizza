@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AceleraPizza.Comum.Helper;
+using System;
 
 namespace AceleraPizza.Dominio.Model
 {
@@ -10,12 +11,9 @@ namespace AceleraPizza.Dominio.Model
         public DateTime DataNascimento { get; set; }
         public string Endereco { get; set; }
 
-        public Cliente(string nome, string cpf, string telefone, DateTime dataNascimento)
+        public Cliente()
         {
-            Nome = nome;
-            Cpf = cpf;
-            Telefone = telefone;
-            DataNascimento = dataNascimento;
+
         }
 
         public Cliente(string nome, string cpf, string telefone, DateTime dataNascimento, string endereco)
@@ -25,11 +23,19 @@ namespace AceleraPizza.Dominio.Model
             Telefone = telefone;
             DataNascimento = dataNascimento;
             Endereco = endereco;
+            Validar();
         }
 
-        public Cliente()
+        private void Validar()
         {
+            if (string.IsNullOrWhiteSpace(Nome))
+                AdicionarErro("Por favor, preencha o campo com o nome do cliente.");
 
+            if (!Cpf.CpfValido())
+                AdicionarErro("O CPF informado é inválido.");
+
+            if (DataNascimento < new DateTime(1900, 01, 01).Date)
+                AdicionarErro("A Data de Nascimento é inválida");
         }
     }
 }

@@ -1,6 +1,5 @@
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Comum\bin\Debug\AceleraPizza.Comum.dll
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Comum\bin\Debug\AceleraPizza.Comum.pdb
-E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Comum\obj\Debug\AceleraPizza.Comum.csprojAssemblyReference.cache
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Comum\obj\Debug\AceleraPizza.Comum.csproj.CoreCompileInputs.cache
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Comum\obj\Debug\AceleraPizza.Comum.dll
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Comum\obj\Debug\AceleraPizza.Comum.pdb

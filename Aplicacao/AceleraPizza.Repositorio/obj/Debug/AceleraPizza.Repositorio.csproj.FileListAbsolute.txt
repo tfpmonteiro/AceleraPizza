@@ -7,6 +7,7 @@ E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Reposito
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\Dommel.dll
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\Newtonsoft.Json.dll
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\System.ComponentModel.Annotations.dll
+E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\AceleraPizza.Comum.dll
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\AceleraPizza.Dominio.pdb
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\Dapper.xml
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\Dapper.FluentMap.xml
@@ -14,6 +15,7 @@ E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Reposito
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\Dommel.xml
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\Newtonsoft.Json.pdb
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\Newtonsoft.Json.xml
+E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\bin\Debug\AceleraPizza.Comum.pdb
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\obj\Debug\AceleraPizza.Repositorio.csprojAssemblyReference.cache
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\obj\Debug\AceleraPizza.Repositorio.csproj.CoreCompileInputs.cache
 E:\Talita\Cursos\01 - AceleraTheòs\AceleraPizza\Aplicacao\AceleraPizza.Repositorio\obj\Debug\AceleraPizza.Repositorio.csproj.CopyComplete

@@ -19,7 +19,11 @@ namespace AceleraPizza.Service
 
         public ClienteDtoReturn Inserir(ClienteInserirViewModel clienteViewModel)
         {
-            var cliente = new Cliente(clienteViewModel.Nome, clienteViewModel.Cpf, clienteViewModel.Telefone, clienteViewModel.DataNascimento);
+            var cliente = new Cliente(clienteViewModel.Nome, clienteViewModel.Cpf, clienteViewModel.Telefone, 
+                clienteViewModel.DataNascimento, clienteViewModel.Endereco);
+
+            if (!cliente.Valido())
+                return new ClienteDtoReturn(cliente.GetErros());
 
             cliente.GerarId();
             _repositorio.Inserir(cliente);
@@ -27,7 +31,7 @@ namespace AceleraPizza.Service
             return new ClienteDtoReturn(BuscarPorId(cliente.Id));
         }
 
-        private ClienteDto BuscarPorId(Guid id)
+        public ClienteDto BuscarPorId(Guid id)
         {
             Cliente cliente = _repositorio.BuscarPorId(id);
 
@@ -74,28 +78,21 @@ namespace AceleraPizza.Service
                 return new ClienteDtoReturn(erros);
             }
 
+            cliente.Endereco = clienteAtualizarViewModel.Endereco;
+            cliente.Telefone = clienteAtualizarViewModel.Telefone;
+
+            if (!cliente.Valido())
+                return new ClienteDtoReturn(cliente.GetErros());
+
             _repositorio.Atualizar(cliente);
 
             return new ClienteDtoReturn(BuscarPorId(cliente.Id));
-        }
-
-        ClienteDto IClienteService.BuscarPorId(Guid id)
-        {
-            Cliente cliente = _repositorio.BuscarPorId(id);
-
-            if (cliente == null)
-                return null;
-
-            return new ClienteDto
-            {
-
-
-            };
         }
 
         public void Excluir(Guid id)
         {
             _repositorio.Excluir(id);
         }
+
     }
 }
