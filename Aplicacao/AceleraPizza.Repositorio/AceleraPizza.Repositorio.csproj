@@ -68,7 +68,11 @@
     <Compile Include="Map\ConfigMapDapper.cs" />
     <Compile Include="Map\IngredienteMap.cs" />
     <Compile Include="Map\PedidoMap.cs" />
+    <Compile Include="Map\PizzaIngredienteMap.cs" />
     <Compile Include="Map\PizzaMap.cs" />
+    <Compile Include="PedidoRepositorio.cs" />
+    <Compile Include="PizzaIngredienteRepositorio.cs" />
+    <Compile Include="PizzaRepositorio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

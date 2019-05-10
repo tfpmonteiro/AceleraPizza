@@ -9,6 +9,7 @@ namespace AceleraPizza.Repositorio.Map
         {
             ToTable("Ingrediente");
             Map(col => col.Id).ToColumn("IdIngrediente").IsKey();
+            Map(col => col.Valor).ToColumn("ValorIngrediente");
         }
     }
 }

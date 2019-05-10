@@ -10,6 +10,14 @@ namespace AceleraPizza.Dominio.Model
         public double ValorPedido { get; set; }
         public DateTime DataPedido{ get; }
 
+        public Pedido() { }
+
+        public Pedido(Cliente cliente)
+        {
+            Cliente = cliente;
+            DataPedido = DateTime.Now;
+        }
+
         public Pedido(Cliente cliente, List<Pizza> pizzas)
         {
             Cliente = cliente;

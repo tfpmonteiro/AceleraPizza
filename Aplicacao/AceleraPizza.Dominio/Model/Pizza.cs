@@ -8,7 +8,10 @@ namespace AceleraPizza.Dominio.Model
         public List<Ingrediente> Ingredientes { get; set; }
         public EnumTamanho Tamanho { get; set; }
         public EnumBorda Borda { get; set; }
+        public Pedido Pedido { get; set; }
         public double ValorPizza { get; set; }
+
+        public Pizza() { }
 
         public Pizza(List<Ingrediente> ingredientes, EnumTamanho tamanho, EnumBorda borda)
         {
@@ -65,5 +68,6 @@ namespace AceleraPizza.Dominio.Model
                     return valor + 20;
             }
         }
+
     }
 }

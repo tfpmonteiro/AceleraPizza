@@ -8,9 +8,9 @@ namespace AceleraPizza.Repositorio.Map
         public PizzaMap()
         {
             ToTable("Pizza");
-            Map(col => col.Id).ToColumn("IdPedido").IsKey();
+            Map(col => col.Id).ToColumn("IdPizza").IsKey();
+            Map(col => col.ValorPizza).ToColumn("ValorPizza");
             Map(col => col.Ingredientes).Ignore();
-            Map(col => col.ValorPizza).Ignore();
         }
     }
 }
